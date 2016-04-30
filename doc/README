@@ -1,0 +1,80 @@
+***************************
+NAME: Matthew Falkner
+USERNAME: falknerm / falknerm@mail.uoguelph.ca
+SN: 0923667 ---- Assignment: 3
+***************************
+
+
+****************************
+-------Compilation---------
+****************************
+
+to compile the code run make for fresh compile
+pi@username ~/A3 $ make
+
+after you can run,
+pi@username ~/A3 $ make clean
+this will remove the .o files from root directory
+It creates an executable in the root directory called 'rouge'
+
+****************************
+---------Usage------------- 
+****************************
+To play the game, run
+pi@username ~/A3 $ ./rouge assests/room.txt
+
+When the game is running, use controls: 
+'w' -> move up 'a' -> move right 's' -> move left 'd' -> move down
+
+Press: 'q' at any time to quit the game and print your results
+
+Press: 'p' at any time to use a potion, restoring you players health
+
+****************************
+---------Testing-----------
+****************************
+What went wrong and how did you fix it? 
+
+-Most of the major issues were based around keeping track of the
+Player and the Enemies data in a way that the origonal data could 
+be dynamically updated. I solved this by only passing in the pointers
+to the origonal data so that there would be no delay in changing position,
+health, and other combat stats. 
+
+-One of the biggest bugs i encoutered was that I was incorrectly parsing the rooms size,
+X and Y was flipped for sizes EX. XXY instead of YXX. This causes more subsequent hotfixes and bugs
+that could have been possibly imagined.
+
+-Obviously, there were many minor bugs, but the iterations were so small and git commits so often 
+that I don't remember much more than the major stuff. 
+
+****************************
+-----Known limitations------
+****************************
+The game works on any raspberry pi running the UOG software,
+as it was programed and tested on one. and as far as I am aware,
+it runs on Mac OSX as well. 
+
+-If the screen is too small for the game to run, it could very well
+seg fault. I have created a function to combat this but I can't
+stop everything...
+
+-Player movemement doesn't work if you use with CAPS_LOCKS on. 
+
+If incountering a segfault,
+ 
+----VERY--IMPORTANT-------
+-If there is a problem with hard.txt or easy.txt the program WILL segfault. 
+	- EXAMPLE: Extra whitespace at the bottom. 
+	- If this is an issue, use the easy.txt and hard.txt int the assests folder. 
+      they are the same and it works on both the PI and the MACS
+ 
+
+****************************
+-------References-----------
+****************************
+I just used stuff I learned in the lectures and in the labs
+
+
+
+

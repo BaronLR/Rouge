@@ -1,0 +1,46 @@
+Room[0] columns:10, rows:10
+room[0]: de2
+room[0]: ds2
+room[0]: dn4
+room[0]: item:'g', x:'2' y:'2'
+room[0]: item:'m', x:'4' y:'4'
+room[0]: item:'h', x:'6' y:'6'
+room[0]: item:'a', x:'8' y:'8'
+Room[1] columns:14, rows:14
+room[1]: de6
+room[1]: dw3
+room[1]: item:'M', x:'6' y:'6'
+room[1]: item:'p', x:'1' y:'1'
+room[1]: item:'p', x:'2' y:'1'
+room[1]: item:'p', x:'3' y:'1'
+Room[2] columns:16, rows:12
+room[2]: de3
+room[2]: ds6
+room[2]: item:'m', x:'5' y:'5'
+room[2]: item:'w', x:'1' y:'1'
+room[2]: item:'W', x:'9' y:'9'
+room[2]: item:'e', x:'10' y:'10'
+room[2]: item:'w', x:'11' y:'10'
+room[2]: item:'w', x:'10' y:'11'
+room[2]: item:'w', x:'11' y:'11'
+Room[3] columns:16, rows:16
+room[3]: de4
+room[3]: ds8
+room[3]: item:'z', x:'4' y:'2'
+room[3]: item:'g', x:'1' y:'1'
+room[3]: item:'g', x:'2' y:'1'
+room[3]: item:'g', x:'3' y:'1'
+room[3]: item:'g', x:'4' y:'1'
+room[3]: item:'G', x:'6' y:'6'
+Room[4] columns:18, rows:18
+room[4]: de5
+room[4]: dn2
+room[4]: ds2
+room[4]: item:'m', x:'6' y:'6'
+room[4]: item:'m', x:'10' y:'10'
+Room[5] columns:15, rows:15
+room[5]: de7
+room[5]: dw3
+room[5]: item:'z', x:'5' y:'4'
+room[5]: item:'m', x:'8' y:'8'
+room[5]: item:'m', x:'12' y:'12'
