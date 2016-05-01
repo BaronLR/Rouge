@@ -1,6 +1,7 @@
 # Rouge
 A version of Rouge written in C that runs in the terminal. Summer project based on some code from CIS2500. 
-
+----WARNING--- 
+This is live development, meaning that the code won't always compile, there might be times when I push broken code
 
 to compile the code run make for fresh compile
 
