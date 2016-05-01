@@ -1,11 +1,9 @@
-# Rouge written in C for the Terminal/Command Line
+# Rouge in ncurses 
 A version of Rouge written in C that runs in the terminal. Summer project based on some code from CIS2500. 
 
-----WARNING--- 
-This is live development, meaning that the code won't always compile, there might be times when I push broken code
+This code might require the Ncurses library to compile, if you don't have it just brew install ncurses 
 
-to compile the code run make for fresh compile
-
+#Run
 pi@username ~/A3 $ make
 
 after you can run,
@@ -21,3 +19,6 @@ Things I plan on doing before the end of the summer,
 1. Random level generation 
 2. Character level progression and stats saving 
 3. Color 
+
+
+This is live development, meaning that the code won't always compile, there might be times when I push broken code
