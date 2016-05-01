@@ -9,6 +9,7 @@ pi@username ~/Rouge $ make
 after you can run,
 
 pi@username ~/Rouge ./rouge assets/hard.txt (this is the seed file) 
+
 in the future you will be able to just ./rouge and it will randomly generate it for you. 
 
 #Clean up
