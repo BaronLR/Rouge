@@ -4,11 +4,15 @@ A version of Rouge written in C that runs in the terminal. Summer project based 
 This code might require the Ncurses library to compile, if you don't have it just brew install ncurses 
 
 #Run
-pi@username ~/A3 $ make
+pi@username ~/Rouge $ make
 
 after you can run,
 
-pi@username ~/A3 $ make clean
+pi@username ~/Rouge ./rouge assets/hard.txt (this is the seed file) 
+in the future you will be able to just ./rouge and it will randomly generate it for you. 
+
+#Clean up
+pi@username ~/Rouge $ make clean
 
 this will remove the .o files from root directory
 It creates an executable in the root directory called 'rouge'
